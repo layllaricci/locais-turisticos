@@ -53,4 +53,24 @@
             color: var(--accent-blue);
         }
     }
+
+    .destino_3 {
+        ul {
+            li:nth-of-type(1) {
+                color: var(--accent-purple);
+            }
+
+            li:nth-of-type(2) {
+                color: var(--accent-pink);
+            }
+
+            li:nth-of-type(3) {
+                color: var(--accent-orange);
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+    }
 }
